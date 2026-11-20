@@ -4942,6 +4942,10 @@
 		(uuid "19111c74-7da9-407a-9533-6559e54e777d")
 	)
 	(no_connect
+		(at 129.54 62.23)
+		(uuid "242930a7-8ac5-4644-91ee-21f064a19742")
+	)
+	(no_connect
 		(at 96.52 64.77)
 		(uuid "25b3453e-0ec9-44ae-916e-4f373827f5d1")
 	)
@@ -5044,10 +5048,6 @@
 	(no_connect
 		(at 129.54 125.73)
 		(uuid "f37655fb-e0b2-41c2-aad4-fb9926b77fd0")
-	)
-	(no_connect
-		(at 129.54 59.69)
-		(uuid "fec63089-73fa-4274-b889-ee158eb6faff")
 	)
 	(wire
 		(pts
@@ -6071,7 +6071,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 129.54 62.23)
+			(xy 104.14 59.69) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6088,6 +6088,26 @@
 			(type default)
 		)
 		(uuid "a20b43e5-fcfe-4622-803a-8e92f0d06a8b")
+	)
+	(wire
+		(pts
+			(xy 105.41 60.96) (xy 105.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab2bcfc-61b2-4a86-b1e3-f3d5bf18f22e")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6916db-c948-40b2-a431-78a441e19a3a")
 	)
 	(wire
 		(pts
@@ -6308,6 +6328,16 @@
 			(type default)
 		)
 		(uuid "c9ab5553-8acb-4c70-8634-4b38869d786e")
+	)
+	(wire
+		(pts
+			(xy 104.14 59.69) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d239e4ca-469c-4346-b61e-471d57279c2d")
 	)
 	(wire
 		(pts
@@ -6750,7 +6780,7 @@
 		(uuid "d6319819-2dc1-4e56-8dbf-23672199b87f")
 	)
 	(label "ROSC"
-		(at 114.3 62.23 0)
+		(at 113.03 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
